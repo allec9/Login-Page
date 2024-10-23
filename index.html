@@ -14,34 +14,42 @@
 </head>
 
 <body>
-    <section>
-        <img src="assets/img/imagem.svg" alt="">
-        <div class="container">
-            <div class="header">
-                    <h2>Bem-vindo!</h2>
+    
+    <div class="bg">
 
-                    <h1>Faça Seu Login</h1>
+    </div>
 
-                    <p>Utilize as credenciais fornecidas pelo administrador</p>
-            </div>
-
-            <div class="form">
-                <p>E-mail</p>
-                <input type="email" placeholder="Digite seu E-mail">
-
-                <p>Senha</p>
-                <input type="password" placeholder="Digite sua Senha" required>
-
-                <div class="remember">
-                    <div><input type="checkbox">
-                        <span>Lembrar-me</span>
-                    </div>
-                    <p>Esqueceu a senha ?</p>
-                </div>
-                <input type="submit" class="btn" value="Entrar">
-            </div>
+    <div class="container">
+        <div class="login">
+            <header>
+                <h2>Bem-vindo!</h2>
+    
+                <h1>Faça Seu Login</h1>
+    
+                <p>Utilize as credenciais fornecidas pelo administrador</p>
+            </header>
         </div>
-    </section>
+
+        <form>
+            <div class="text">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" placeholder="Digite seu E-mail">
+            </div>
+
+            <div class="text">
+                <label for="senha">Senha</label>
+                <input id="senha" type="password" placeholder="Digite sua Senha" required>
+            </div>
+
+            <div class="remember">
+                <div><input type="checkbox">
+                    <span>Lembrar-me</span>
+                </div>
+                <p>Esqueceu a senha?</p>
+            </div>
+            <input type="submit" class="btn" value="Entrar">
+        </form>
+    </div>
 </body>
 
 </html>
