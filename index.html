@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    
+
     <div class="bg">
 
     </div>
@@ -23,32 +23,37 @@
         <div class="login">
             <header>
                 <h2>Bem-vindo!</h2>
-    
+
                 <h1>Faça Seu Login</h1>
-    
-                <p>Utilize as credenciais fornecidas pelo administrador</p>
+
+                <p>Utilize as credenciais fornecidas <br> pelo administrador</p>
             </header>
+
+            <form>
+                <div class="text">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email" placeholder="Digite seu E-mail">
+                </div>
+
+                <div class="text">
+                    <label for="senha">Senha</label>
+                    <div class="personalized">
+                        <input id="senha" type="password" placeholder="Digite sua Senha" required>
+                        <img src="assets/img/hide.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="remember">
+                    <div class="rem">
+                        <input type="checkbox">
+                        <span>Lembrar-me</span>
+                    </div>
+                    <p>Esqueceu a senha?</p>
+                </div>
+                <input type="submit" class="btn" value="Entrar">
+            </form>
         </div>
 
-        <form>
-            <div class="text">
-                <label for="email">E-mail</label>
-                <input id="email" type="email" placeholder="Digite seu E-mail">
-            </div>
-
-            <div class="text">
-                <label for="senha">Senha</label>
-                <input id="senha" type="password" placeholder="Digite sua Senha" required>
-            </div>
-
-            <div class="remember">
-                <div><input type="checkbox">
-                    <span>Lembrar-me</span>
-                </div>
-                <p>Esqueceu a senha?</p>
-            </div>
-            <input type="submit" class="btn" value="Entrar">
-        </form>
     </div>
 </body>
 
